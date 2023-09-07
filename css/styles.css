@@ -1,3 +1,44 @@
+p, h1, h2, h3, h4, h5{
+margin:0;
+}
+li{
+    margin:0;
+    padding-left: 0;
+}
+img{
+    display: block;
+}
+.container{
+    max-width: 1440px;
+    padding: 0 auto;
+    
+}
+.header-inner{
+    display:flex;
+    align-items: center;
+
+    flex-grow: 1;
+}
+.page-nav{
+    display: flex;
+    gap:40px;
+    
+}
+.support-info{
+   display:flex;
+   justify-content: flex-start;
+   
+}
+.header-nav{
+    display:flex;
+    align-items:center;
+    flex-grow: 1;
+}
+.inner-list{
+    display:flex;
+    gap: 40px;
+    
+}
 .item-body{
     color: #434455;
     background-color: #FFFFFF;
@@ -24,6 +65,8 @@ address {
     text-decoration: none;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    padding-left: 156px;
+
 }
 .accent{
     color: #2e2f42;
@@ -52,6 +95,9 @@ address {
         letter-spacing: 0.32px;
         text-decoration: none;
         letter-spacing: 0.02em;
+        padding:24px 0;
+        display: inline-block;
+        
 }
 .nav-link:hover{
    color: #404bbf;
@@ -73,6 +119,16 @@ address {
 .item-mail:focus{
     color: #404bbf;
 }
+/* effect-section */
+.effect-inner{
+    padding: 188px 472px 292px;
+}
+.effect-actions{
+    display: flex;
+    align-items: center;
+    padding-top: 48px;
+}
+
 .effect-section{
     background-color: #2E2F42;
 }
@@ -95,6 +151,9 @@ address {
     line-height: 1.5;
     font-size: 16px;
     letter-spacing: 0.04em;
+    margin: auto;
+    padding:16px 32px;
+    
 }
 .effective-button:hover{
     background-color: #404BBF;
@@ -102,26 +161,43 @@ address {
 .effective-button:focus{
     background-color: #404BBF;
 }
+/* CONTENT */
+.advantage-list{
+    display: flex;
+    gap: 24px;
+    padding-left: 156px;
+}
+.photo-info{
+    padding-bottom: 32px;
+}
 .quality-item{
          color: #2E2F42;
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
         text-align: center;
-        letter-spacing: 0.02em;    
+        letter-spacing: 0.02em;
+        display: flex;
+        padding-bottom: 8px;    
 }
 .quality-item-info{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding-bottom: 120px;
 }
 .team{
     background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 }
 .section-team{
     background-color: #F4F4FD;
 }
+/* our TEAM */
+
 .our-team{
     color: #2E2F42;
     font-size: 36px;
@@ -129,9 +205,12 @@ address {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    align-items: center;
 }
 .item-list{
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+    flex-basis: calc((100%-72)/ 4);
+    
 }
 .list-name{
     font-weight: 500;
@@ -139,6 +218,7 @@ address {
     letter-spacing: 0.02em;
     color: #2E2F42;
     line-height: 1.2;
+    padding-bottom: 8px;
 }
 .list-work{
     font-size: 16px;

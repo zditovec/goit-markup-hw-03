@@ -29,7 +29,7 @@ header{
     align-items: center;
     flex-grow: 1;
 }
-.nav-logo{
+.header-nav{
     display: flex;
     align-items: center;
     flex-grow: 1;
@@ -71,7 +71,7 @@ header{
 .nav-link:focus{
     color: #404bbf;
 }
-.support-info{
+.address-inner{
     display: flex;
     justify-content: flex-start;
 }

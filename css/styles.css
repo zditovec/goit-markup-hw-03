@@ -8,35 +8,68 @@ li{
 img{
     display: block;
 }
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
 header{
     border-bottom: 1px solid #e7e9fc
 }
-.container{
-    display:flex;
+.container {
+    display: flex;
     width: 1158px;
-    margin: 0;
+    margin: 0 auto;
     padding: 0 15px;
-    
 }
 .header-inner{
     display:flex;
     align-items: center;
     flex-grow: 1;
 }
-.page-nav{
+.header-nav {
     display: flex;
-    gap:40px;
-    
-}
-.support-info{
-   display:flex;
-   justify-content: flex-start;
-   
-}
-.header-nav{
-    display:flex;
-    align-items:center;
+    align-items: center;
     flex-grow: 1;
+}
+.logo {
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-right: 76px;
+}
+.page-nav {
+    display: flex;
+    gap: 40px;
+}
+.nav-link {
+    color: #2e2f42;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+    display: inline-block;
+}
+.nav-link:hover {
+    color: #404bbf;
+}
+.nav-link:focus {
+    color: #404bbf;
+}
+.support-info {
+    display: flex;
+    justify-content: flex-start;
 }
 .inner-list{
     display:flex;
@@ -48,30 +81,10 @@ header{
     background-color: #FFFFFF;
     font-family: "Roboto", sans-serif;
 }
-a {
-    text-decoration: none;
-}
-
-ul {
-    list-style: none;
-}
-
 address {
     font-style: normal;
 }
-.logo{
-    color:#4d5ae5;
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.17;
-    text-decoration: none;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    margin-right: 76px;
 
-}
 .accent{
     color: #2e2f42;
     font-family: Raleway;
@@ -90,25 +103,7 @@ address {
         line-height: 21px;
         text-decoration: none;
 }
-.nav-link{
-        color: #2e2f42;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.32px;
-        text-decoration: none;
-        letter-spacing: 0.02em;
-        padding:24px 0;
-        display: inline-block;
-        
-}
-.nav-link:hover{
-   color: #404bbf;
-}
-.nav-link:focus{
-    color: #404bbf;
-}
+
 .item-mail{
     color: #434455;
         font-size: 16px;

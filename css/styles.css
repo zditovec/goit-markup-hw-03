@@ -154,7 +154,7 @@ address{
 }
 
 .effective-button{
-    display:block
+    display:block;
     color: #FFFFFF;
     font-family: "Roboto", sans-serif;
     background-color: #4D5AE5;
@@ -164,7 +164,7 @@ address{
     line-height: 1.5;
     font-size: 16px;
     letter-spacing: 0.04em;
-    margin: auto;
+    margin: auto ;
     padding:16px 32px;
     min-width: 169px;
     height: 56px;
@@ -178,6 +178,9 @@ address{
 }
 
 /* CONTENT */
+.solution-business{
+    padding: 120px 0 120px 156px;
+}
 .advantage-list{
     display: flex;
     gap: 24px;
@@ -251,9 +254,7 @@ address{
     text-transform: capitalize;
     margin-bottom: 72px;
 }
-.information{
-    padding: 120px 0 120px 0;
-}
+
 .media-list{
     color: #2E2F42;
     font-weight: 500;

@@ -71,15 +71,6 @@ header{
 .nav-link:focus{
     color: #404bbf;
 }
-.address-inner{
-    display: flex;
-    justify-content: flex-start;
-}
-.mail-list{
-    display:flex;
-    gap: 40px;
-    
-}
 .item-body{
     color: #434455;
     background-color: #FFFFFF;
@@ -88,10 +79,11 @@ header{
 address{
     font-style: normal;
 }
-.address-list{
+.info-inner{
     display:flex;
     gap: 40px;
 }
+
 .accent{
     color: #2e2f42;
     font-family: Raleway;

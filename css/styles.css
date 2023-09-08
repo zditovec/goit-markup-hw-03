@@ -48,10 +48,12 @@ header{
 }
 .page-nav{
     display: flex;
-    gap: 40px;
+        gap: 40px;
 }
 .page-list{
     pading:24px 0;
+    display: flex;
+        gap: 40px;
 }
 .nav-link{
     color: #2e2f42;
@@ -283,7 +285,9 @@ color: #4d5ae5;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
-
 }
-        display:inline-block;
-        margin-bottom: 16px;
+.footer-inner{
+    display:inline-block;
+    margin-bottom: 16px;
+}
+

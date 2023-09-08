@@ -118,15 +118,16 @@ address{
     color: #404bbf;
 }
 /* effect-section */
+.effect-info{
+    display:block;
+
+}
 .effect-inner{
     padding: 188px 472px 292px;
 }
-.effect-actions{
-    display: flex;
-    align-items: center;
-    padding-top: 48px;
+.effect-inner{
+    max-width: 496px;
 }
-
 .effect-section{
     background-color: #2E2F42;
     padding: 188px 0
@@ -141,6 +142,12 @@ address{
         letter-spacing: 0.02em;
         max-width: 496px;
 }
+.effect-actions {
+    display: flex;
+    align-items: center;
+    
+}
+
 .effective-button{
     color: #FFFFFF;
     font-family: "Roboto", sans-serif;
@@ -153,11 +160,6 @@ address{
     letter-spacing: 0.04em;
     margin: auto;
     padding:16px 32px;
-    display: block;
-    min-width: 169px;
-    height: 56px;
-    
-    
 }
 .effective-button:hover{
     background-color: #404BBF;
@@ -165,6 +167,7 @@ address{
 .effective-button:focus{
     background-color: #404BBF;
 }
+
 /* CONTENT */
 .advantage-list{
     display: flex;

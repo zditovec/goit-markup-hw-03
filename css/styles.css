@@ -197,7 +197,8 @@ address{
         text-align: center;
         letter-spacing: 0.02em;
         display: flex;
-        padding-bottom: 8px;    
+        padding-bottom: 8px;
+        margin-bottom: 8px;    
 }
 .quality-item-info{
     font-size: 16px;
@@ -214,6 +215,7 @@ address{
 }
 .section-team{
     background-color: #F4F4FD;
+    padding:120px 0;
 }
 /* our TEAM */
 
@@ -228,8 +230,11 @@ address{
 }
 .item-list{
     background-color: #FFFFFF;
-    flex-basis: calc((100%-72)/ 4);
-    
+    flex-basis: calc((100%-72)/ 4); 
+}
+.information{
+padding: 32px;
+width: calc((100% - 72px) / 4);
 }
 .list-name{
     font-weight: 500;

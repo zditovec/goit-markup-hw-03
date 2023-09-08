@@ -218,7 +218,9 @@ address{
     padding:120px 0;
 }
 /* our TEAM */
-
+.team-info{
+    padding: 32px 0
+}
 .our-team{
     color: #2E2F42;
     font-size: 36px;
@@ -229,12 +231,12 @@ address{
     align-items: center;
 }
 .item-list{
-    background-color: #FFFFFF;
-    flex-basis: calc((100%-72)/ 4); 
+    background-color: #FFFFFF;  
 }
 .information{
-padding: 32px;
-width: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
+    display: block;
+padding: 32px 0
 }
 .list-name{
     font-weight: 500;
@@ -243,12 +245,15 @@ width: calc((100% - 72px) / 4);
     color: #2E2F42;
     line-height: 1.2;
     padding-bottom: 8px;
+    text-align: center;
+    padding bottom: 8px;
 }
 .list-work{
     font-size: 16px;
     letter-spacing: 0.02em;
     color: #434455;
     line-height: 1.5;
+    text-align: center;
 }
 .our-portfolio{
     color: #2E2F42;

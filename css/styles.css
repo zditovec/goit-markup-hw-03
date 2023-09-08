@@ -241,6 +241,10 @@ address{
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
+}
+.information{
+    padding: 120px 0 120px 0;
 }
 .media-list{
     color: #2E2F42;
@@ -256,9 +260,14 @@ address{
 }
 .footer-info{
     background-color:#2E2F42;
+    padding:100px 0;
 }
 .conclusion{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+}
+.footer-inner{
+    display: inline-block;
+    margin-bottom: 16px;
 }

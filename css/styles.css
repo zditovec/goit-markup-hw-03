@@ -75,7 +75,7 @@ header{
     display: flex;
     justify-content: flex-start;
 }
-.inner-list{
+.mail-list{
     display:flex;
     gap: 40px;
     

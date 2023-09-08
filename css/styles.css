@@ -154,6 +154,7 @@ address{
 }
 
 .effective-button{
+    display:block
     color: #FFFFFF;
     font-family: "Roboto", sans-serif;
     background-color: #4D5AE5;
@@ -165,6 +166,9 @@ address{
     letter-spacing: 0.04em;
     margin: auto;
     padding:16px 32px;
+    min-width: 169px;
+    height: 56px;
+    border-radius:4px;
 }
 .effective-button:hover{
     background-color: #404BBF;

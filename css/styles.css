@@ -51,7 +51,7 @@ header{
         gap: 40px;
 }
 .page-list{
-    pading:24px 0;
+    
     display: flex;
         gap: 40px;
 }
@@ -90,11 +90,6 @@ address{
     display: flex;
     gap: 40px;
 }
-.list-info{
-    display:flex;
-    gap: 40px;
-}
-
 .accent{
     color: #2e2f42;
     font-family: Raleway;

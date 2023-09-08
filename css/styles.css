@@ -84,6 +84,10 @@ address{
     display:flex;
     gap: 40px;
 }
+.mail-nav{
+    display:flex;
+    gap: 40px;
+}
 
 .accent{
     color: #2e2f42;
@@ -267,7 +271,19 @@ address{
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
-.footer-inner{
-    display: inline-block;
-    margin-bottom: 16px;
+.logo-footer{
+color: #4d5ae5;
+    font-family: "Raleway",
+        sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-right: 76px;
+
 }
+        display:inline-block;
+        margin-bottom: 16px;

@@ -79,6 +79,7 @@ header{
 address{
     font-style: normal;
 }
+
 .info-inner{
     display:flex;
     gap: 40px;
@@ -145,7 +146,7 @@ address{
 .effect-actions {
     display: flex;
     align-items: center;
-    
+
 }
 
 .effective-button{

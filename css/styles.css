@@ -219,8 +219,13 @@ address{
 }
 /* our TEAM */
 .team-info{
-    padding: 32px 0
+    padding: 32px 0;
 }
+.team{
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
 .our-team{
     color: #2E2F42;
     font-size: 36px;
@@ -229,6 +234,7 @@ address{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     align-items: center;
+    
 }
 .item-list{
     background-color: #FFFFFF;  
@@ -246,7 +252,7 @@ padding: 32px 0
     line-height: 1.2;
     padding-bottom: 8px;
     text-align: center;
-    padding bottom: 8px;
+    padding-bottom: 8px;
 }
 .list-work{
     font-size: 16px;

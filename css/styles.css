@@ -19,7 +19,6 @@ header{
 }
 /* header */
 .container{
-    display: flex;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -177,6 +176,18 @@ address{
 .solution-business{
     padding: 120px 0;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .advantage-list{
     display: flex;
     gap: 24px;
@@ -324,6 +335,7 @@ address{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    max-width: 264px;
 }
 .logo-footer{
 color: #4d5ae5;
@@ -338,22 +350,6 @@ color: #4d5ae5;
     text-transform: uppercase;
     margin-right: 76px;
     margin-bottom: 16px;
-}
-.footer-inner{
-display: inline-block;
-max-width: 264px;
-margin-left: 156px;
-margin-top: 140px;
-}
-.visually-hidden{
-    position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
-        white-space: nowrap;
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
+    display: inline-block;
+    max-width: 264px;
 }

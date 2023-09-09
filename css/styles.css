@@ -340,7 +340,7 @@ color: #4d5ae5;
     margin-bottom: 16px;
 }
 .footer-inner{
-display: block;
+display: inline-block;
 max-width: 264px;
 margin-left: 156px;
 margin-top: 140px;

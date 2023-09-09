@@ -290,6 +290,7 @@ address{
 }
 .list-name-page{
     margin-bottom: 8px;
+    width: calc((100% - 48px) / 3);
 }
 .media-list{
     color: #2E2F42;
@@ -316,6 +317,8 @@ address{
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    margin: 0;
+    padding: 0;
 }
 /* FOOTER */
 .footer-info{

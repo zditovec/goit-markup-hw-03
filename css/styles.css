@@ -185,6 +185,9 @@ address{
     gap: 24px;
     padding-left: 156px;
 }
+.advantage-item{
+    flex-basis: calc((100% - 3 * 24px) / 4)
+}
 .photo-info{
     padding-bottom: 32px;
 }

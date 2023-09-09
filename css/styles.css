@@ -244,7 +244,15 @@ address{
         width: calc((100% - 72px) / 4);
     padding: 32px 0;
 }
-.list-name{
+
+.list-work{
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #434455;
+    line-height: 1.5;
+    text-align: center;
+}
+.list-name {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
@@ -253,14 +261,6 @@ address{
     padding-bottom: 8px;
     text-align: center;
     padding-bottom: 8px;
-    margin-bottom: 8px
-}
-.list-work{
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    color: #434455;
-    line-height: 1.5;
-    text-align: center;
 }
 /* our-portfolio */
 
@@ -276,13 +276,17 @@ address{
     text-transform: capitalize;
     margin-bottom: 72px;
 }
-
+.list-name-page{
+    margin-bottom: 8px;
+    width: calc((100% - 48px) / 3);
+}
 .media-list{
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
     line-height: 1.2;
+    margin-bottom: 8px
 }
 .sphere-list-link{
     color: #434455;

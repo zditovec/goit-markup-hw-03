@@ -221,8 +221,6 @@ address{
     padding: 32px 0;
 }
 .team-human{
-    width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
     padding: 120px 0;
 }
 .our-team{
@@ -237,11 +235,14 @@ address{
 }
 .item-list{
     background-color: #FFFFFF; 
+    
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 .information-team{
-    width: calc((100% - 72px) / 4);
     display: block;
-padding: 32px 0;
+        width: calc((100% - 72px) / 4);
+    padding: 32px 0;
 }
 .list-name{
     font-weight: 500;
@@ -252,6 +253,7 @@ padding: 32px 0;
     padding-bottom: 8px;
     text-align: center;
     padding-bottom: 8px;
+    margin-bottom: 8px
 }
 .list-work{
     font-size: 16px;

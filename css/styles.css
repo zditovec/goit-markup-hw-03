@@ -188,7 +188,7 @@ address{
     gap: 24px;
     padding-left: 156px;
     margin: 0;
-    padding: 0;
+     padding: 0;
 }
 .advantage-item{
     flex-basis: calc((100% - 3 * 24px) / 4)
@@ -219,6 +219,8 @@ address{
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin: 0;
+    padding: 0;
 }
 .section-team{
     background-color: #F4F4FD;

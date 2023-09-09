@@ -232,11 +232,11 @@ address{
     text-transform: capitalize;
     align-items: center;
     margin-bottom: 72px;
+   
 }
 .item-list{
-    background-color: #FFFFFF; 
-    
-    width: calc((100% - 72px) / 4);
+    background-color: #FFFFFF;
+    flex-basis:  calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 .information-team{
@@ -261,11 +261,13 @@ address{
     padding-bottom: 8px;
     text-align: center;
     padding-bottom: 8px;
+    margin-bottom: 8px
 }
 /* our-portfolio */
 
 .information{
     padding: 120px 0 120px;
+
 }
 .our-portfolio{
     color: #2E2F42;
@@ -278,7 +280,6 @@ address{
 }
 .list-name-page{
     margin-bottom: 8px;
-    width: calc((100% - 48px) / 3);
 }
 .media-list{
     color: #2E2F42;
@@ -286,12 +287,12 @@ address{
     font-size: 20px;
     letter-spacing: 0.02em;
     line-height: 1.2;
-    margin-bottom: 8px
+    margin-bottom: 8px;
 }
 .sphere-list-link{
     color: #434455;
     letter-spacing: 0.02em;
-    line-height: 1.5
+    line-height: 1.5;
 }
 
 .name-addendum{

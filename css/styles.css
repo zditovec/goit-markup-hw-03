@@ -124,7 +124,7 @@ address{
 }
 /* effect-section */
 .effect-info{
-    display:block;
+    display: block;
 
 }
 .effect-inner{
@@ -150,7 +150,6 @@ address{
 .effect-actions {
     display: flex;
     align-items: center;
-
 }
 
 .effective-button{

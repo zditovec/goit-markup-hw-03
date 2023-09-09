@@ -221,11 +221,10 @@ address{
 .team-info{
     padding: 32px 0;
 }
-.team{
+.team-human{
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
-
 .our-team{
     color: #2E2F42;
     font-size: 36px;
@@ -234,15 +233,14 @@ address{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     align-items: center;
-    
 }
 .item-list{
-    background-color: #FFFFFF;  
+    background-color: #FFFFFF; 
 }
-.information{
+.information-team{
     width: calc((100% - 72px) / 4);
     display: block;
-padding: 32px 0
+padding: 32px 0;
 }
 .list-name{
     font-weight: 500;
@@ -260,6 +258,11 @@ padding: 32px 0
     color: #434455;
     line-height: 1.5;
     text-align: center;
+}
+/* our-portfolio */
+
+.information{
+    padding: 120px 0 120px;
 }
 .our-portfolio{
     color: #2E2F42;
@@ -283,6 +286,13 @@ padding: 32px 0
     letter-spacing: 0.02em;
     line-height: 1.5
 }
+.name-addendum{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
+/* FOOTER */
 .footer-info{
     background-color:#2E2F42;
     padding:100px 0;

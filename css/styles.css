@@ -223,6 +223,7 @@ address{
 .team-human{
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    padding: 120px 0;
 }
 .our-team{
     color: #2E2F42;
@@ -232,6 +233,7 @@ address{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     align-items: center;
+    margin-bottom: 72px;
 }
 .item-list{
     background-color: #FFFFFF; 

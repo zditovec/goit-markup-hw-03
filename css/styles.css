@@ -146,6 +146,8 @@ address{
         text-align: center;
         letter-spacing: 0.02em;
         max-width: 496px;
+        margin: auto;
+        
 }
 .effect-actions {
     display: flex;
@@ -163,7 +165,8 @@ address{
     line-height: 1.5;
     font-size: 16px;
     letter-spacing: 0.04em;
-    margin: auto ;
+    margin: auto;
+    
     padding:16px 32px;
     min-width: 169px;
     height: 56px;
@@ -184,6 +187,8 @@ address{
     display: flex;
     gap: 24px;
     padding-left: 156px;
+    margin: 0;
+    padding: 0;
 }
 .advantage-item{
     flex-basis: calc((100% - 3 * 24px) / 4)

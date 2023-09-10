@@ -9,6 +9,8 @@ img{
     display: block;
 }
 ul{
+    margin: 0;
+    padding-left: 0;
     list-style: none;
 }
 a{
@@ -145,7 +147,8 @@ address{
         text-align: center;
         letter-spacing: 0.02em;
         max-width: 496px;
-        margin: auto;    
+        margin: 0 auto;
+        margin-bottom: 48px;
 }
 .effective-button{
     display:block;
@@ -198,18 +201,12 @@ address{
 .advantage-item{
     flex-basis: calc((100% - 3 * 24px) / 4)
 }
-.photo-info{
-    padding-bottom: 32px;
-}
 .quality-item{
          color: #2E2F42;
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
-        text-align: center;
         letter-spacing: 0.02em;
-        display: flex;
-        padding-bottom: 8px;
         margin-bottom: 8px;    
 }
 .quality-item-info{
@@ -217,7 +214,6 @@ address{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding-bottom: 120px;
 }
 .team{
     background-color: #FFFFFF;
@@ -233,8 +229,7 @@ address{
 }
 /* our TEAM */
 .team-info{
-    display:block;
-    padding: 32px 0;
+    padding: 0 15px;
 }
 
 .our-team{
@@ -254,8 +249,6 @@ address{
     border-radius: 0px 0px 4px 4px;
 }
 .information-team{
-    display: block;
-        width: calc((100% - 72px) / 4);
     padding: 32px 0;
 }
 
@@ -272,9 +265,7 @@ address{
     letter-spacing: 0.02em;
     color: #2E2F42;
     line-height: 1.2;
-    padding-bottom: 8px;
     text-align: center;
-    padding-bottom: 8px;
     margin-bottom: 8px
 }
 /* our-portfolio */
@@ -316,7 +307,6 @@ address{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 .portfolio-list{
     display: flex;
@@ -348,7 +338,6 @@ color: #4d5ae5;
     text-decoration: none;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px;
     margin-bottom: 16px;
     display: inline-block;
     max-width: 264px;
